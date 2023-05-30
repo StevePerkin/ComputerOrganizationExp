@@ -48,6 +48,7 @@ module axilite_master(
 
     ///////////////////////////////////////////////////////////////////////////
     // write address channel
+    // TODO
     always @(posedge aclk or negedge areset) begin
         if (!areset) begin
             if (m_axi_awvalid && m_axi_awready) begin
@@ -58,10 +59,10 @@ module axilite_master(
             end
         end
     end
-    // TODO
 
     ///////////////////////////////////////////////////////////////////////////
     // write data channel
+    // TODO
     always @(posedge aclk or negedge areset) begin
         if (!areset) begin
             if (m_axi_wvalid && m_axi_wready) begin
@@ -74,7 +75,6 @@ module axilite_master(
         end
     end
     
-    // TODO
 
     ///////////////////////////////////////////////////////////////////////////
     // write response channel
@@ -96,6 +96,7 @@ module axilite_master(
 
     ///////////////////////////////////////////////////////////////////////////
     // read address channel
+    // TODO
     always @(posedge aclk or negedge areset) begin
         if (!areset) begin
             if (m_axi_arvalid && m_axi_arready) begin
@@ -106,7 +107,7 @@ module axilite_master(
             end
         end
     end
-    // TODO
+    
 
     ///////////////////////////////////////////////////////////////////////////
     // read data channel
@@ -127,5 +128,18 @@ module axilite_master(
     always @(posedge aclk or posedge areset) begin
         m_axi_rready <= areset ? 1'b0 : 1'b1;
     end
+
+
+    always @(posedge aclk or negedge areset) begin
+        if (!areset) begin
+            if (m_axi_rvalid && m_axi_rready) begin
+                dev_rvalid <= 1'b0;
+            end else if (m_axi_arvalid && m_axi_arready) begin
+                dev_rvalid <= 1'b1;
+                dev_rdata <= m_axi_rdata;
+            end
+        end
+    end
+
 
 endmodule
