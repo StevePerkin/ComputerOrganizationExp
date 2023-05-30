@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue May 30 23:10:48 2023
+# Process ID: 32076
+# Current directory: F:/大二下/计算机组成实验/organ/pkg/lab4/axi_lite
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31872 F:\大二下\计算机组成实验\organ\pkg\lab4\axi_lite\axi_lite.xpr
+# Log file: F:/大二下/计算机组成实验/organ/pkg/lab4/axi_lite/vivado.log
+# Journal file: F:/大二下/计算机组成实验/organ/pkg/lab4/axi_lite\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/大二下/计算机组成实验/organ/pkg/lab4/axi_lite/axi_lite.xpr
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+upgrade_ip [get_ips  {f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/axi_gpio_0/axi_gpio_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/axi_gpio_1/axi_gpio_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/design_1_xbar_0/design_1_xbar_}] -log ip_upgrade.log
+upgrade_ip [get_ips  {f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/axi_gpio_0/axi_gpio_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/axi_gpio_1/axi_gpio_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/design_1_xbar_0/design_1_xbar_}] -log ip_upgrade.log
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/axi_gpio_0/axi_gpio_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/axi_gpio_1/axi_gpio_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/design_1_xbar_0/design_1_xbar_}] -log ip_upgrade.log
+launch_simulation
+upgrade_ip [get_ips  {f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/axi_gpio_0/axi_gpio_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/axi_gpio_1/axi_gpio_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/design_1_xbar_0/design_1_xbar_}] -log ip_upgrade.log
+upgrade_ip [get_ips  {f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/axi_gpio_0/axi_gpio_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/axi_gpio_1/axi_gpio_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/design_1_xbar_0/design_1_xbar_}] -log ip_upgrade.log
+upgrade_ip [get_ips  {f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/axi_gpio_0/axi_gpio_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/axi_gpio_1/axi_gpio_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/axi_lite.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_ f:/′ót/ú×é3éé/organ/pkg/lab4/axi_lite/design_1_xbar_0/design_1_xbar_}] -log ip_upgrade.log
